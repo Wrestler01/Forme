@@ -1,0 +1,39 @@
+.header {
+    margin: 0;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #ffffff;
+    box-shadow: 3px 3px 3px #333333;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+
+    &:hover {
+        border: 2px solid #000000;
+        background-color: limegreen;
+    }
+
+    &__img {
+        margin: 0;
+        padding: 0;
+        border: none;
+        display: block;
+        border-radius: 5px;
+    }
+
+    &__link {
+        margin: 0;
+        padding: 0;
+        color: gold;
+        text-decoration: none;
+        font-size: 30px;
+        cursor: progress;
+        text-shadow: 3px 3px 3px #000000;
+
+        &:hover {
+            color: mediumblue;
+            text-shadow:3px 3px 3px #ffbd54;
+        }
+    }
+}

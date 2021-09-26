@@ -1,0 +1,62 @@
+.box {
+    margin: 0;
+    padding: 15px 30px;
+    min-height: 800px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/photos/nature1.png");
+    background-color: wheat;
+    box-shadow: 4px 4px 5px black;
+    
+    &:hover {
+        background-color: darkcyan;
+    }
+    
+    &__text {
+        color: darkgreen;
+        max-width: 1400px;
+        text-align: center;
+        font-size:25px;
+        line-height: 50px;
+        text-shadow: 5px 5px 6px black;
+        
+        &:hover {
+            cursor: no-drop;
+            color: red;
+        }
+    }
+}
+.box1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/photos/arm.jpg");
+
+    &__text {
+        color: black;
+        text-shadow: 5px 5px 6px #ffffff;
+
+        &:hover {
+            color: cyan;
+        }
+    }
+}
+
+.box3 {
+    background-size: 1400px 800px;
+    background-repeat: no-repeat;
+    background-image: url("/photos/MDIST.png");
+
+    &__text {
+        color:darkblue;
+
+        &:hover {
+            color: black;
+        }
+    }
+}
